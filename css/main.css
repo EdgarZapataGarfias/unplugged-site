@@ -180,10 +180,51 @@ article .features-item-description{
   flex-flow: row wrap;
 }
 
+.faq{
+  display: flex;
+}
 .faq .content-wrapper{
   width: 100%;
+  margin: 20px;
+  display: flex;
   flex-flow: row wrap;
 }
+
+.faq h2, p{
+  margin-right: 20px;
+}
+
+.faq p{
+  font-size: .875em;
+}
+
+.about .mission {
+  margin: 20px;
+  display: flex;
+  }
+
+.about h1{
+  font-family: 'Poppins', serif;
+  font-size: 3em;
+  line-height: .8em;
+}
+
+.about p{
+  font-size: 0.875em;
+}
+
+.about figure{
+  display: flex;
+  height: 440px;
+}
+
+.contact-about {
+  width: 100%;
+  margin-left: 20px;
+  display: flex;
+
+}
+
 
 /*---Footer---*/
 footer{
@@ -309,10 +350,72 @@ footer .social-icons{
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
+/*Tablet styles*/
+   @media only screen and (min-width: 768px){
+    header {
+      margin: 0 50px 0 50px;
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+    }
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
-}
+    .header-divider{
+      display: none;
+    }
+
+    header .content-wrapper{
+      display: flex;
+      flex-flow: row;
+    }
+
+    header figure{
+      justify-content: flex-start;
+    }
+
+    .hero-area h1{
+      margin: 0 50px 0 50px;
+      font-size: 2.5em;
+    }
+
+    aside .content-wrapper{
+      margin: 0 50px 0 50px;
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    aside .form-description{
+      width: 42.5%;
+      margin-right: 45px;
+      display: flex;
+      flex-flow: column wrap;
+    }
+
+    aside .form{
+      width: 42.5%;
+      margin-left: 45px;
+      display: flex;
+      flex-flow: column wrap;
+    }
+
+    .features .content-wrapper{
+      margin: 0%;
+      display: flex;
+      justify-content: center;
+      flex-flow: column wrap;
+      }
+
+ */
+      
+    }
+
+   }
+
+/*Desktop styles*/
+   @media only screen and (min-width: 1200px) {
+     body{
+       background-color: blue;
+     }
+   }
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
