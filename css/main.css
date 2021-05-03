@@ -355,7 +355,6 @@ footer .social-icons{
     header {
       margin: 0 50px 0 50px;
       display: flex;
-      justify-content: center;
       flex-flow: row wrap;
     }
 
@@ -366,6 +365,11 @@ footer .social-icons{
     header .content-wrapper{
       display: flex;
       flex-flow: row;
+      justify-content: space-between;
+    }
+
+    header nav{
+      width: 30%;
     }
 
     header figure{
@@ -384,31 +388,147 @@ footer .social-icons{
     }
 
     aside .form-description{
-      width: 42.5%;
-      margin-right: 45px;
+      width: 50%;
       display: flex;
       flex-flow: column wrap;
     }
 
     aside .form{
-      width: 42.5%;
-      margin-left: 45px;
+      width: 50%;
       display: flex;
       flex-flow: column wrap;
     }
+
+    .features{
+      margin: 0%;
+      padding-top: 100px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+      }
 
     .features .content-wrapper{
       margin: 0%;
-      display: flex;
-      justify-content: center;
-      flex-flow: column wrap;
-      }
-
- */
-      
     }
 
-   }
+    .features-items{
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    #first-group, #second-group, #third-group{
+      display: flex;
+    }
+
+    #first-group article, #second-group article, #third-group article{
+      width: 50%;
+    }
+    
+    .reviews .content-wrapper{
+      margin: 0%;
+      display: flex;
+    }
+
+    .faq{
+      margin-top: 90px;
+      display: flex;
+      flex-flow: column wrap;
+    }
+
+    .faq h1{
+      margin-left: 60px;
+    }
+    .faq .content-wrapper{
+      margin: 0%;
+      width: 83.33%;
+      padding: 0px 60px 0px 60px;
+      display: flex;
+      flex-flow:row wrap;
+    }
+
+    .faq-content{
+      width:100%;
+      display: flex;
+    }
+
+    .about .mission{
+      margin: 0 60px 0 60px;
+      width: 83.333%;
+    }
+
+    .mission .content-wrapper{
+      display: flex;
+      flex-flow: column nowrap;
+    }
+
+    .mission .mission-content{
+      display: flex;
+    }
+
+    .map {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    .map figure{
+      margin: 0%;
+      width: 100%;
+      height: 1024px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .contact-about{
+      margin: 0%;
+      display: flex;
+    }
+
+    .contact-about .content-wrapper{
+      display: flex;
+      margin: 0% 60px 0 60px;
+      flex-flow: row wrap ;
+    }
+
+    .contact-information{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    footer .content-wrapper{
+      margin: 0%;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+    }
+
+    .footer-content{
+      display: flex;
+      justify-content: center;
+    }
+
+    .contact{
+      width: 50%;
+      padding-right: 60px;
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+    }
+
+    .social{
+      padding-left: 60px;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      flex-flow: row wrap;
+    }
+
+  }
+
+  
 
 /*Desktop styles*/
    @media only screen and (min-width: 1200px) {
